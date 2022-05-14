@@ -9,8 +9,8 @@ export default function Layout({ children ,title}) {
         <meta name="description" content="Ecommerce Website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div>
-        <header>header</header>
+      <div className="flex min-h-screen flex-col justify-between">
+        <header className="">header</header>
         <main>{children}</main>
         <footer>footer</footer>
       </div>
