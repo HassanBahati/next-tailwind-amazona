@@ -26,8 +26,8 @@ export default function Layout({ children, title }) {
             </div>
           </nav>
         </header>
-        <main>{children}</main>
-        <footer>footer</footer>
+        <main className="container m-auto mt-4 px-4">{children}</main>
+        <footer className="flex justify-center items-center h-10 shadow-inner">Copyright &copy; 2022 Amazona</footer>
       </div>
     </>
   );
