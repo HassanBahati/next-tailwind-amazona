@@ -49,6 +49,7 @@ function ProductScreen() {
               <div>Status</div>
               <div>{product.countInStock > 0 ? "In Stock" : "Unavailable"}</div>
             </div>
+            <button className="primary-button w-full">Add to cart</button>
           </div>
         </div>
       </div>
