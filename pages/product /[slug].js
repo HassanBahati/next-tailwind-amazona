@@ -27,7 +27,10 @@ function ProductScreen() {
           </div>
           <div>
             <ul>
-                <li>{product.name}</li>
+              <li>
+                <h1 className="text-lg">{product.name}
+                </h1>
+              </li>
             </ul>
           </div>
         </div>
