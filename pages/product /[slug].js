@@ -42,8 +42,8 @@ function ProductScreen() {
         <div>
           <div className="p-5 card">
             <div className="mb-2 flex justify-between">
-            <div>Price</div>
-            <div>${product.price}</div>
+              <div>Price</div>
+              <div>${product.price}</div>
             </div>
           </div>
         </div>
