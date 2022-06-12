@@ -39,6 +39,12 @@ function ProductScreen() {
             </ul>
           </div>
         </div>
+        <div>
+          <div className="p-5 card">
+            <div>Price</div>
+            <div>${product.price}</div>
+          </div>
+        </div>
       </div>
     </Layout>
   );
