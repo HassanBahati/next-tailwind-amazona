@@ -10,7 +10,11 @@ function ProductScreen() {
   if (!product) {
     return <div>Product Not Found </div>;
   }
-  return <Layout title={product.name}></Layout>;
+  return (
+    <Layout title={product.name}>
+      <h1>{product.name}</h1>
+    </Layout>
+  );
 }
 
 export default ProductScreen;
